@@ -57,6 +57,8 @@ app.post("/handleRequestGPT4", handleRequestGPT4);
 
 //Functions write here
 
-app.listen(8080, function () {
-  console.log("Server is running on port 8080");
-});
+// app.listen(8080, function () {
+//   console.log("Server is running on port 8080");
+// });
+
+module.exports = app;
